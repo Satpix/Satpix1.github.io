@@ -1,0 +1,48 @@
+.container{
+	background-color:grey;
+	display: flex;
+	position: absolute;
+	justify-content: space-between;
+	max-width: 1400px;
+	padding: 0 15px;
+}
+#canvas {
+	padding-top:20px;
+}
+.download{
+	margin-top: 60px;
+}
+.text{
+	font-size:70px;
+	text-shadow:3px 3px 3px black;
+	color:#ede439;
+	padding-top: 30px;
+}
+input {
+
+
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #ede439;
+	border-radius: 8px;
+	color: black;
+	text-shadow:3px 3px 3px black;
+}
+button{
+
+	width:288px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #ede439;
+	border-radius: 8px;
+	color: black;
+}
+.simple-text{
+	font-size:40px;
+	text-shadow:3px 3px 3px black;
+	color:#ede439;
+	padding-top: 30px;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo editor</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+
+	<div class="container">
+		<div class="base">
+			<div class="text">
+				Фото-редактор
+			</div>
+			<div class="download">
+				<input  type="file" accept="image/*" id='loadImage'>
+				<button  id='dowload'>Скачать</button>	
+			</div>
+			<div class="simple-text">
+				Крутите колёсико и перемещайте изображение левой клавишей мыши
+			</div>
+		</div>
+		<div class="canvas">
+			<canvas id='canvas'></canvas>
+		</div>
+	</div>
+	<script src='mouse.js'></script>
+	<script  src='main.js'></script>
+</body>
+</html>
